@@ -1,0 +1,36 @@
+{
+  "name": "call-records-cleaner-redis",
+  "version": "1.0.0",
+  "description": "Set ttls for records without ttl.",
+  "main": "call-record-cleaner-redis.js",
+  "dependencies": {
+    "config": "^1.24.0",
+    "js-yaml": "^3.7.0",
+    "log4js": "^1.1.0",
+    "redis": "^2.6.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-kwebbl": "^0.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanuwa/call-records-cleaner-redis.git"
+  },
+  "keywords": [
+    "redis",
+    "nodejs",
+    "cleaner",
+    "record"
+  ],
+  "author": "Va Nuwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanuwa/call-records-cleaner-redis/issues"
+  },
+  "homepage": "https://github.com/vanuwa/call-records-cleaner-redis#readme",
+  "engine": "node 6.9.2"
+}

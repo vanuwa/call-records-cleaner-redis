@@ -1,0 +1,6 @@
+service:
+  name: call-record-cleaner
+  host: 0.0.0.0
+  log_level: 'ERROR'
+redis:
+  host: 0.0.0.0

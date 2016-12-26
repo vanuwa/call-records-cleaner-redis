@@ -1,0 +1,15 @@
+service:
+  name: call-record-cleaner
+  host: localhost
+  port: 4000
+  log_level: 'ALL'
+ttl:
+  call_record_sec: 14400
+redis:
+  host: localhost
+  port: 6379
+  call_key_prefix: 'call_'
+  call_events_key_prefix: 'call_events_'
+  blind_transfer_key_prefix: 'blind_transfer_'
+  call_events_history_key_prefix: 'call_events_history_'
+  processing_state_key_prefix: 'processing_state_'
